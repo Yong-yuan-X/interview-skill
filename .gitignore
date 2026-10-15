@@ -1,0 +1,7 @@
+# Chinese authoring sources and the original design document stay local.
+/local/
+/interview-skill.docx
+
+# Python bytecode generated during development.
+__pycache__/
+*.py[cod]

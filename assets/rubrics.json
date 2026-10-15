@@ -1,0 +1,148 @@
+{
+  "levels": {
+    "Strong": {
+      "coefficient": 1,
+      "criterion": "Outstanding performance with sufficient evidence of exceeding role expectations"
+    },
+    "Meets": {
+      "coefficient": 0.75,
+      "criterion": "Meets role expectations, supported by concrete examples"
+    },
+    "Below": {
+      "coefficient": 0.5,
+      "criterion": "Partially meets expectations, with clear gaps"
+    },
+    "Weak": {
+      "coefficient": 0.25,
+      "criterion": "Does not meet core role requirements"
+    }
+  },
+  "interview_types": {
+    "technical": {
+      "name": "Technical interview",
+      "goal": "Assess whether the candidate has the technical ability and practical engineering experience required for the role",
+      "dimensions": [
+        {
+          "id": "technical_foundation",
+          "name": "Technical foundations and role skills",
+          "weight": 25,
+          "focus": "Core technical principles, depth of knowledge, and proficiency in the JD's technology stack"
+        },
+        {
+          "id": "project_ownership",
+          "name": "Project ownership and personal contribution",
+          "weight": 20,
+          "focus": "Actual personal contributions, implementation details, technical challenges, project outcomes, and answer consistency"
+        },
+        {
+          "id": "architecture_judgment",
+          "name": "Architecture and technical judgment",
+          "weight": 20,
+          "focus": "System design, technology selection, alternatives, and performance/scalability trade-offs"
+        },
+        {
+          "id": "engineering_practice",
+          "name": "Engineering quality and practice",
+          "weight": 15,
+          "focus": "Code quality, test coverage, error handling, reliability, and security"
+        },
+        {
+          "id": "troubleshooting",
+          "name": "Problem analysis and troubleshooting",
+          "weight": 15,
+          "focus": "Fault isolation, hypothesis testing, debugging methods, and solutions"
+        },
+        {
+          "id": "technical_communication",
+          "name": "Technical communication",
+          "weight": 5,
+          "focus": "Clarity, logical structure, and handling follow-ups"
+        }
+      ]
+    },
+    "comprehensive": {
+      "name": "Comprehensive interview",
+      "goal": "Assess whether the candidate can work independently, deliver projects, and collaborate effectively with a team",
+      "dimensions": [
+        {
+          "id": "business_understanding",
+          "name": "Business and product understanding",
+          "weight": 20,
+          "focus": "User needs, business goals, problem definition, and product value"
+        },
+        {
+          "id": "decision_making",
+          "name": "Decision-making and judgment",
+          "weight": 20,
+          "focus": "Prioritization, resource constraints, risk analysis, and trade-offs"
+        },
+        {
+          "id": "delivery_ownership",
+          "name": "Delivery and ownership",
+          "weight": 20,
+          "focus": "Personal responsibilities, delivery outcomes, taking responsibility for problems, and retrospectives"
+        },
+        {
+          "id": "cross_team_collaboration",
+          "name": "Cross-team collaboration",
+          "weight": 15,
+          "focus": "Team communication, disagreements, cross-functional cooperation, and feedback handling"
+        },
+        {
+          "id": "initiative_learning",
+          "name": "Initiative and learning",
+          "weight": 15,
+          "focus": "Self-direction, learning speed, adaptability, and continuous improvement"
+        },
+        {
+          "id": "structured_thinking",
+          "name": "Structured thinking and communication",
+          "weight": 10,
+          "focus": "Structured expression, logical reasoning, complex-problem analysis, and thinking on the spot"
+        }
+      ]
+    },
+    "hr": {
+      "name": "HR interview",
+      "goal": "Assess the candidate's motivation, experience credibility, career direction, and alignment with the role",
+      "dimensions": [
+        {
+          "id": "motivation",
+          "name": "Motivation",
+          "weight": 15,
+          "focus": "Reasons for applying, understanding of the company and role, and interest in the opportunity"
+        },
+        {
+          "id": "experience_consistency",
+          "name": "Experience consistency",
+          "weight": 20,
+          "focus": "Resume accuracy, consistency of experience, and reasons for leaving or seeking a role"
+        },
+        {
+          "id": "teamwork_conflict",
+          "name": "Teamwork and conflict handling",
+          "weight": 25,
+          "focus": "Collaboration, conflict resolution, accepting feedback, and professional behavior"
+        },
+        {
+          "id": "growth_potential",
+          "name": "Growth potential",
+          "weight": 15,
+          "focus": "Willingness to learn, self-awareness, growth examples, and adaptability"
+        },
+        {
+          "id": "career_plan",
+          "name": "Career planning",
+          "weight": 10,
+          "focus": "Short- and medium-term goals, career direction, and role alignment"
+        },
+        {
+          "id": "professional_communication",
+          "name": "Professional communication",
+          "weight": 15,
+          "focus": "Clarity, communication approach, listening, and responding"
+        }
+      ]
+    }
+  }
+}
