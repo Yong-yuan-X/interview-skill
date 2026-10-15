@@ -1,2 +1,21 @@
 # interview-skill
-真实求职场景的实用型 AI 面试 Skill，结合岗位 JD 和简历的模拟面试、专项训练与结构化评分复盘。A practical AI interview skill for real-world job preparation, featuring JD- and resume-based mock interviews, targeted practice, and structured performance reviews.
+真实求职场景的实用型 AI 面试 Skill，结合岗位 JD 和简历的模拟面试、专项训练与结构化评分复盘
+
+[English](README.en.md)
+
+## 使用方法
+
+1. 让能读取本地文件的 AI 助手读取本项目的 [SKILL.md](SKILL.md)。
+2. 提供目标岗位的 JD 和简历，并说明面试模式、类型和目标经验级别，例如：
+
+```text
+请读取本项目的 SKILL.md，使用 interview-skill 开始面试。
+模式：教练模式；面试类型：技术面；目标级别：校招／应届。
+我接下来会提供 JD 和简历。
+```
+
+支持真实模拟、教练训练、历史复盘和薄弱点复测。历史复盘只需提供已有面试记录或报告。
+
+## 后续更新
+
+本 Skill 在设计与开发过程中，参考了与两位来自互联网中大型企业的 HR 的交流建议，打磨面试流程与反馈设计，力求让训练更贴近真实求职场景。 欢迎 Star ⭐，关注后续更新！
