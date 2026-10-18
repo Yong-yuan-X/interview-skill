@@ -32,6 +32,13 @@ The conversation-language rule follows explicit user preference, then the curren
 
 Historical validation excerpts in the English release are labeled as translations. Earlier runs do not establish behavior of the localized release; record any new checks separately.
 
+## Design alignment confirmed (2026-10-18)
+
+- Candidate answers default to no reference lookup, other AI, or code execution. Allow only the scope proactively and explicitly permitted by the user, without asking for exceptions at the start. workflows.md defines policy and actual-use records, which appear in the report. The candidate rule does not restrict interviewer material reading or the scoring script.
+- Follow the design's allowance for clarification of problem background, terminology, and constraints without solution hints or evaluations of the current answer. Coaching guidance follows the completed group.
+- Retain the existing recording rule of verbatim answers or explicitly labeled accurate summaries. The maintainer requested a parenthetical implementation note at the corresponding location in the local Chapter 9 design document.
+- Separate priority improvements from reference answers for key questions. Improvements remain limited to at most three; reference answers are not limited by that count or to weak answers.
+
 ## Chapter mapping
 
 | Original chapter | Implementation |

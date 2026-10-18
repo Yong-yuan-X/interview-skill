@@ -7,6 +7,8 @@
 - Role and JD source: {{role, provided responsibilities and requirements}}
 - Type / mode / feedback policy: {{technical / comprehensive / HR; one of the four workflows}}
 - Target experience level and basis: {{user choice or JD; mark uncertainty}}
+- Answer-tool policy: {{default no reference lookup, other AI, or code execution; permissions proactively and explicitly stated by the user, their scope, and when they changed; unknown if absent from historical records}}
+- Reported assistance: {{record only user-disclosed use and affected question/answer IDs; write "not reported" without disclosure, not independently verified non-use}}
 - Materials actually read: {{actual access to resume, history, code, and inaccessible links}}
 - Completion: {{normal end / early end; actual main questions and follow-ups completed}}
 - Pacing: {{reliable actual timing or question-count pacing; do not invent minutes}}
@@ -25,6 +27,8 @@ Repeat in actual chronological order, including every available main question, f
 | {{Q1-F1, A1-F1}} | Follow-up and answer; include only when they occurred | {{identify the question and answer separately}} | {{actual status}} | {{actual record type}} | {{actual intervention}} |
 | {{F1}} | Group feedback; include only when it occurred | {{scores, analysis, guidance, and intervention timing}} | — | AI assessment | Guidance given |
 | {{A1-R1}} | Post-guidance improvement; include only when it occurred | {{improved answer}} | {{actual status}} | Original answer / answer summary | Excluded from independent scoring |
+
+Answer assistance for this group: {{question/answer IDs, user-disclosed actual use, and whether it fell within the explicitly permitted scope at that time; write "not reported" without disclosure}}
 
 Reverse questions: {{actual questions and answers grounded in known materials; unknown matters require recruiter confirmation; state if none occurred}}
 
@@ -52,13 +56,21 @@ Simulated hiring judgment: {{separate from scoring; explain the basis and reserv
 
 Objective matching conditions: {{salary, availability, location, working arrangements, and other known facts; unknown items require confirmation; exclude from ability scores}}
 
-## Priority improvements and reference answers
+## Priority improvements
 
 Include at most three supported items. Do not fill a quota; explicitly state when evidence is insufficient.
 
-| Priority | Question evidence and impact | Improvement action | Reference answer points |
-| --- | --- | --- | --- |
-| {{item}} | {{question / answer ID, gap, and reason}} | {{concrete practice task}} | {{technical points or wording grounded only in provided experience; use “to be supplied by the user” for missing facts in the conversation language; invent no metrics or results}} |
+| Priority | Question evidence and impact | Review and practice advice |
+| --- | --- | --- |
+| {{item}} | {{question / answer ID, gap, and reason for prioritizing it}} | {{concrete review and practice actions}} |
+
+## Reference answers
+
+Independently select key questions from the actual interview and provide reference answer points. Include important well-answered questions when relevant, rather than limiting this section to improvement items. The three-item improvement limit does not apply here. Use only experience supplied by the candidate; mark missing facts as "to be supplied by the user" in the conversation language, and invent no work experience, project outcomes, or metrics.
+
+| Key question ID and actual question | Reference answer points |
+| --- | --- |
+| {{actual key question}} | {{technical points or wording based on supplied experience; explicitly mark missing facts}} |
 
 ## Next practice and review materials
 

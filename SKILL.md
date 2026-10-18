@@ -29,7 +29,7 @@ Apply the confirmed defaults and material-handling rules in workflows.md. For or
 ## Core execution
 
 1. Collect only the materials and settings required by the current workflow. A new interview uses a JD, resume, interview type, and target experience level. Inspect optional project materials only when access is authorized and tools can actually read them. If essential project details are missing, ask at most 1–2 clarification questions, one at a time, and allow skipping.
-2. Before a new interview or retest, read [evaluation.md](references/evaluation.md) and the relevant interview type in [rubrics.json](assets/rubrics.json). Freeze weights, critical abilities, and role-specific behavioral anchors. Briefly state the round's settings before starting.
+2. Before a new interview or retest, read [evaluation.md](references/evaluation.md) and the relevant interview type in [rubrics.json](assets/rubrics.json). Freeze weights, critical abilities, and role-specific behavioral anchors. Candidate answers must use no reference lookup, other AI, or code execution unless the user proactively and explicitly permits them. Record permitted scope and reported use as defined in workflows.md, and briefly state the round's settings before starting.
 3. Ask only one core question requiring a user response per turn, then wait. Do not combine independent subquestions to bypass this limit. Use 0–3 follow-ups per main question as evidence requires; see questions.md for stopping rules and question design.
 4. During realistic simulations, do not provide answers, corrections, scores, or evaluative hints. In coaching mode, give feedback only after the entire main-question group and its follow-ups end. Record post-guidance answers separately; never overwrite independent answers. Retest feedback timing is defined in workflows.md.
 5. Move on when the user skips. Stop asking questions when paused and wait for the user to resume. If the user ends early, generate a partial report from available evidence without requiring remaining answers. Do not delay an explicit request to finish for reverse questions.
@@ -37,7 +37,7 @@ Apply the confirmed defaults and material-handling rules in workflows.md. For or
 
 ## Session and capability boundaries
 
-Maintain only necessary internal state: mode, type, target level, frozen standards, main-question ID, follow-up count, consecutive ineffective answers, dimension coverage, answer evidence, feedback intervention, and session phase. See workflows.md for the structure. Do not emit state JSON every turn or promise cross-session memory.
+Maintain only necessary internal state: mode, type, target level, answer-tool policy and reported use, frozen standards, main-question ID, follow-up count, consecutive ineffective answers, dimension coverage, answer evidence, feedback intervention, and session phase. See workflows.md for the structure. Do not emit state JSON every turn or promise cross-session memory.
 
 The default reference duration is 40 minutes. Control actual time only when reliable timing is available; otherwise use roughly 5–6 main questions and necessary follow-ups. Do not invent elapsed or remaining minutes.
 
