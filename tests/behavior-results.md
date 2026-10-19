@@ -194,6 +194,3 @@ Observed report behavior: Chinese prose, headings, and dimension labels; the ori
 
 Human judgment: this trial observed default English interaction despite Chinese materials, an explicit language request taking precedence over the English user message, Chinese report display text, preservation of the original question alongside a labeled translation, and early ending. It did not test every language, every interview type, coaching feedback in another language, a complete long round, or automatic skill discovery.
 
-### README restoration requested by the maintainer
-
-The unauthorized README expansion was reverted to the original two-line content, and the local README copy was restored too. The ten-English-Markdown static check above occurred before this restoration; the other nine release Markdown files remain in English. Do not change README.md, LICENSE, or the original Word document as part of routine skill maintenance without an explicit request for that file.

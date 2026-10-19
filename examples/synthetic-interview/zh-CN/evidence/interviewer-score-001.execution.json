@@ -1,0 +1,23 @@
+{
+  "label": "interviewer",
+  "attempt": 1,
+  "started_at_utc": "2026-10-19T11:31:56.432336+00:00",
+  "completed_at_utc": "2026-10-19T11:31:56.524885+00:00",
+  "command": [
+    "E:\\PYTHON\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\.github\\interview-skill\\examples\\synthetic-interview\\installed-skills\\interview-skill\\scripts\\score.py",
+    "E:\\.github\\interview-skill\\examples\\synthetic-interview\\evidence\\interviewer-score-001.input.json"
+  ],
+  "working_directory": "E:\\.github\\interview-skill\\examples\\synthetic-interview",
+  "exit_code": 0,
+  "source_input": "evidence/scoring-input.json",
+  "input_snapshot": "evidence/interviewer-score-001.input.json",
+  "input_sha256": "ca6b2bfca20b7760d93050be6af5373c20017b0a82f0566d1d64d475226abd4d",
+  "script_sha256": "43bb819f8edfdee7989a8a663e016a735fed8e835d53dcf061206b80dfda5bc0",
+  "rubrics_sha256": "fd94b70c3cca9241437aa4acd00615cfb61290981fca3e36f15f40deeb736daf",
+  "stdout": "evidence/interviewer-score-001.stdout.json",
+  "stderr": "evidence/interviewer-score-001.stderr.txt"
+}

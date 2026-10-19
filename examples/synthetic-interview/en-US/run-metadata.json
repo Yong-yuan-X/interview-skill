@@ -1,0 +1,112 @@
+{
+  "test_label": "AI synthetic test",
+  "status": "completed_with_findings",
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "interview_language": "en-US",
+  "documentation_language": "en",
+  "role": "Junior AI Application Developer",
+  "candidate_experience_years": 1,
+  "target_experience_years": 1,
+  "created_at_utc": "2026-10-19T13:52:37.559498+00:00",
+  "skill_commit_sha": "4f493b07f1e2cdcac0d050a5abbf5b6b620bde93",
+  "repository": "https://github.com/Yong-yuan-X/interview-skill",
+  "installed_skill_path": "installed-skills/interview-skill",
+  "installation": "Local copy of previously installed pinned snapshot; all 18 files verified byte-for-byte against git commit.",
+  "host": {
+    "session_host_build": "Not recorded",
+    "local_codex_cli_version": "0.162.0-alpha.17.2",
+    "cli_version_scope": "Observed local executable, not asserted session host build.",
+    "powershell_version": "5.1.26100.9711",
+    "os_version": "Microsoft Windows NT 10.0.26200.0",
+    "python_version": "3.10.9"
+  },
+  "agents": {
+    "mediator": {
+      "handle": "/root",
+      "model": "Not recorded",
+      "reasoning_effort": "Not recorded"
+    },
+    "interviewer": {
+      "handle": "/root/english_interviewer",
+      "fork_turns": "none",
+      "model": "Not recorded",
+      "reasoning_effort": "Not recorded",
+      "model_override": null,
+      "reasoning_override": null,
+      "runtime_session_id": "Not recorded"
+    },
+    "candidate": {
+      "handle": "/root/english_candidate",
+      "fork_turns": "none",
+      "model": "Not recorded",
+      "reasoning_effort": "Not recorded",
+      "model_override": null,
+      "reasoning_override": null,
+      "runtime_session_id": "Not recorded"
+    }
+  },
+  "allowed_modifications": [
+    "examples/synthetic-interview/README.md"
+  ],
+  "protected_chinese_run": "../zh-CN/",
+  "input_sha256": {
+    "candidate-agent-task.md": "6dd34568773fc039c1da5f9b96d56ea23c4fb30857992a2b52f45ff2ecc15367",
+    "candidate-profile.md": "b456e263bc37c043e820a8e10219857dc957c1516ccc4ad2bc62b53ce2227b23",
+    "interview-request.md": "4b8d2b35dc90cbdf8d8234f0abb91e2a90f780debd7de26afc9c220bebab4b3b",
+    "interviewer-agent-task.md": "c6fb443a0b427e07e3129ad0b7f4158aab5f56b57b146b19bffb134c5c71055f",
+    "jd.md": "72758e7de84deed7d2126abf474eded64f3251bf953c56e279ddb076c4bdfd99",
+    "project-facts.md": "4b0cc3e1108d8fec4500c04b250db85baf2214e3c22b47f10b4a6dacb0d41b19",
+    "resume.md": "fbfc931e21c41d0f46a53c9daea044bd519c64302e854143059c8218a8fcfd87"
+  },
+  "validation_file": "validation.md",
+  "new_files_scope": "examples/synthetic-interview/en-US/",
+  "commit_or_push_performed": false,
+  "completed_at_utc": "2026-10-19T14:28:08.286212+00:00",
+  "interview": {
+    "completion": "normal_end",
+    "main_questions": 6,
+    "followups": 5,
+    "followups_per_main": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "candidate_reverse_questions": 1,
+    "actual_dialogue_messages": 25,
+    "technical_answers": 11,
+    "scoring_answer_records": 12,
+    "first_message_captured_at_utc": "2026-10-19T13:55:07.816067+00:00",
+    "last_message_captured_at_utc": "2026-10-19T14:24:13.872957+00:00",
+    "timestamps_scope": "Mediator capture times, not generation or delivery times."
+  },
+  "results": {
+    "score": 76.25,
+    "coverage_percent": 100.0,
+    "script_executions": 2,
+    "exit_codes": [
+      0,
+      0
+    ],
+    "required_four_checks_passed": true,
+    "automated_integrity_arithmetic_checks": 22,
+    "behavioral_all_passed": false,
+    "findings": [
+      "EN-001"
+    ],
+    "rating_references_reviewed": 23,
+    "reverse_question_used_for_ratings": false
+  },
+  "limits": [
+    "Exact models, reasoning efforts, session IDs and host build not exposed.",
+    "Shared filesystem with role-specific read constraints, not OS-level isolation.",
+    "Global automatic invocation not tested.",
+    "One AI/AI technical run; no human grading ground truth.",
+    "Different scenario, candidate and target from Chinese run; scores are not a language-controlled comparison."
+  ],
+  "chinese_files_preserved": 82,
+  "protected_preexisting_files_preserved": 124
+}

@@ -1,0 +1,256 @@
+{
+  "test_label": "AI synthetic test",
+  "scope": "Actual mediator routing; exact dispatch timestamps not separately recorded.",
+  "routes": [
+    {
+      "sequence": 1,
+      "source": "exchanges/interviewer-001.md",
+      "source_sha256": "36907da99eb8fc82aa9523db733c2ad0d2e35ec8c4ae0311bb04eef446cd147e",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 2,
+      "source": "exchanges/candidate-001.md",
+      "source_sha256": "5a2014ad38874d3cc597a45d71e52b26899c7e25380d602d2ede0561b6bfd172",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 3,
+      "source": "exchanges/interviewer-002.md",
+      "source_sha256": "bbb3c80d451f6d15c3ee9be078bf9af7d04ceed3349fd5735fab9d4346b883de",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 4,
+      "source": "exchanges/candidate-002.md",
+      "source_sha256": "41c4e0adeee1a7ddd9735ef5d83803693ea259638d01d901ea866949c7ec81ae",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 5,
+      "source": "exchanges/interviewer-003.md",
+      "source_sha256": "9a99fca3276ccdd45fb7eaed0383a59d17625c6c06f4e53ff2c6678f0c1b58fd",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 6,
+      "source": "exchanges/candidate-003.md",
+      "source_sha256": "9d857263b878787ca67f23f6497d2e16fa40f3c021761b2fb815489947ba3ada",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 7,
+      "source": "exchanges/interviewer-004.md",
+      "source_sha256": "bbb1ee27cbadb2bee98e582fb18463505e0c13a82900710a93277c8707724e33",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 8,
+      "source": "exchanges/candidate-004.md",
+      "source_sha256": "72e0679548564ea8f62b03d3a7182fa1716f633c529bdb9b4208710d4e165743",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 9,
+      "source": "exchanges/interviewer-005.md",
+      "source_sha256": "9b6b5d1b1c5ea1cc90e9ac6e23fe1f5b7a3a859a40605180230061ba734796b6",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 10,
+      "source": "exchanges/candidate-005.md",
+      "source_sha256": "503ac211c42186e3403f8fd8581e1b65afecd36dc373b2848ff9ada27449af6d",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 11,
+      "source": "exchanges/interviewer-006.md",
+      "source_sha256": "1a246a02db6d0067db1da1d5e3ca0185a553b80dee6da7685bfb73509cba08cc",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 12,
+      "source": "exchanges/candidate-006.md",
+      "source_sha256": "ed39e23adaf2f0cdf5d3bf009445e7318cfc197978e07b8717dcf73d51db03a2",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 13,
+      "source": "exchanges/interviewer-007.md",
+      "source_sha256": "19fd0d4112c06f5b430f354f38129f6d2733ab6140e76e95f6a1ff3eeace013c",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 14,
+      "source": "exchanges/candidate-007.md",
+      "source_sha256": "88d1a8c1804d6ba31299703fafc84eac08d9f2e6d0f79691c62202deae9501d1",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 15,
+      "source": "exchanges/interviewer-008.md",
+      "source_sha256": "c16a9898c3edca94130d30f79efd3f168cbe6e7ae1951f5cf934389744192bbf",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 16,
+      "source": "exchanges/candidate-008.md",
+      "source_sha256": "5fb530fb1317fee798f908990845e9c1821b9f710a454902bf17c84b18362d22",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 17,
+      "source": "exchanges/interviewer-009.md",
+      "source_sha256": "0cc5d6e48263dfbf652382fdffe3d547527ac8063a35c92bda65c76d273cf3ce",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 18,
+      "source": "exchanges/candidate-009.md",
+      "source_sha256": "f6e7c70036190ddeab72ecf339238b9022c8041441bc3944c1cab40c821c2d41",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 19,
+      "source": "exchanges/interviewer-010.md",
+      "source_sha256": "746c14bbab6ff17b6326ca7311319b291a3c50f5f6cf508c3291d7016d1c3ceb",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 20,
+      "source": "exchanges/candidate-010.md",
+      "source_sha256": "28a6e13486f865dd873d5d49e500dc5f34589f5046a5d0e17cbab861a2727965",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 21,
+      "source": "exchanges/interviewer-011.md",
+      "source_sha256": "8d80677b25474bbc9dd0ff4e75cf3630f0b6a620bb0100a92d2ae901af1edf08",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 22,
+      "source": "exchanges/candidate-011.md",
+      "source_sha256": "b2ce0e28ce397a228b87f11da6f60e372e4fb62214df6f0c5c2b7f1e786e2bbf",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 23,
+      "source": "exchanges/interviewer-012.md",
+      "source_sha256": "928f5b31ac1fce2dd40d44b41ff6043758e27aeef9d98a6a3e28628670fea4c1",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 24,
+      "source": "exchanges/candidate-012.md",
+      "source_sha256": "ebac16b62e2667ec32c4fdc0661a7541266920da193ba8e00b86f7c3777bd591",
+      "sender": "/root/english_candidate",
+      "recipient": "/root/english_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Verbatim actual output forwarded without evaluator guidance."
+    },
+    {
+      "sequence": 25,
+      "source": "exchanges/interviewer-013.md",
+      "source_sha256": "990616726d9df230a8fafc3c98edd75b334c0da0b7eabfe33254a8caa96724c7",
+      "sender": "/root/english_interviewer",
+      "recipient": "/root/english_candidate",
+      "tool": "collaboration.send_message",
+      "dispatch_timestamp": "Not recorded",
+      "note": "Final report forwarded without triggering a new answer."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "protected_preexisting_files": 124,
+  "protected_chinese_files": 82,
+  "changed_protected_files": [],
+  "allowed_modifications": [
+    "examples/synthetic-interview/README.md"
+  ],
+  "all_protected_files_unchanged": true
+}

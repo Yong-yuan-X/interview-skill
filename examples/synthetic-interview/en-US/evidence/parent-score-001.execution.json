@@ -1,0 +1,23 @@
+{
+  "label": "parent",
+  "attempt": 1,
+  "started_at_utc": "2026-10-19T14:22:46.487632+00:00",
+  "completed_at_utc": "2026-10-19T14:22:46.575624+00:00",
+  "command": [
+    "E:\\PYTHON\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\.github\\interview-skill\\examples\\synthetic-interview\\en-US\\installed-skills\\interview-skill\\scripts\\score.py",
+    "E:\\.github\\interview-skill\\examples\\synthetic-interview\\en-US\\evidence\\parent-score-001.input.json"
+  ],
+  "working_directory": "E:\\.github\\interview-skill\\examples\\synthetic-interview\\en-US",
+  "exit_code": 0,
+  "source_input": "evidence/interviewer-score-001.input.json",
+  "input_snapshot": "evidence/parent-score-001.input.json",
+  "input_sha256": "39287596892780f5969296c49d64dc49749076eb75faa9db58754ec2511f0640",
+  "script_sha256": "43bb819f8edfdee7989a8a663e016a735fed8e835d53dcf061206b80dfda5bc0",
+  "rubrics_sha256": "fd94b70c3cca9241437aa4acd00615cfb61290981fca3e36f15f40deeb736daf",
+  "stdout": "evidence/parent-score-001.stdout.json",
+  "stderr": "evidence/parent-score-001.stderr.txt"
+}

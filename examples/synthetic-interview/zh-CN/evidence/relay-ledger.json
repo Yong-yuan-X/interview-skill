@@ -1,0 +1,236 @@
+{
+  "test_label": "AI 合成测试",
+  "scope": "Actual mediator routing of the recorded messages. Exact per-dispatch timestamps were not separately recorded.",
+  "routes": [
+    {
+      "sequence": 1,
+      "source": "exchanges/interviewer-001.md",
+      "source_sha256": "bfa346f1423616652a98adaafe27dfc183a390f759474fe362fe5a908b4095e0",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 2,
+      "source": "exchanges/candidate-001.md",
+      "source_sha256": "5cf2384a874279d29b21945c6861a8b6de5532cd0bdb9376d9d0c93783fcac12",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 3,
+      "source": "exchanges/interviewer-002.md",
+      "source_sha256": "89ff259c7f59536bd4bd0ab25cf5a69905fb833d714db448b1059e05e14ace24",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 4,
+      "source": "exchanges/candidate-002.md",
+      "source_sha256": "49b24e72de032af1de685a5036036831fd258dc4a85d96e64437f7ef57aaa891",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 5,
+      "source": "exchanges/interviewer-003.md",
+      "source_sha256": "7f54ebe31f7c70e55ce0a63208ded71c7c8aa305377250962d62a374bdc5ae16",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 6,
+      "source": "exchanges/candidate-003.md",
+      "source_sha256": "c53ac31902239fe8c22c63e7ef4de37c1c90dda94580ec794145ac9d9d5b2876",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 7,
+      "source": "exchanges/interviewer-004.md",
+      "source_sha256": "9349e9f119f76cd35948119bceceb5cb0a2f47bef862773a989aadb7b55241b7",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 8,
+      "source": "exchanges/candidate-004.md",
+      "source_sha256": "12aa1211032c32de016c28a53df7eb2014660bc2989a69291ef3feaae2ed5f86",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 9,
+      "source": "exchanges/interviewer-005.md",
+      "source_sha256": "3adf02bad325c2b33ac5c5cc0912eecf69973e86fa4a31e7a6b8d6a75c929929",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 10,
+      "source": "exchanges/candidate-005.md",
+      "source_sha256": "a0c45a6713255e9c10735cd24c8f9d2aef65d4ad11ad991d54c8ad3118c11364",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 11,
+      "source": "exchanges/interviewer-006.md",
+      "source_sha256": "763ea3f5e12bea7a1a146de127f053a36d049f2865e965fe7ad201ef52e5e4fa",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 12,
+      "source": "exchanges/candidate-006.md",
+      "source_sha256": "52c7e06a59ec3004fe21af77866b9b33702208950414cca1edc027dec4bd6ec7",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 13,
+      "source": "exchanges/interviewer-007.md",
+      "source_sha256": "250ee98353a33a02ccff116036176a711c110cfc5d9741b386171a06259c23db",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 14,
+      "source": "exchanges/candidate-007.md",
+      "source_sha256": "a6b48776eeca2f7df8316596786ea941dd87ac5185380c2e7c391b58f8abae34",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 15,
+      "source": "exchanges/interviewer-008.md",
+      "source_sha256": "d6a19943d6d75b905a8ebf9c19f152e04935700d652bf0171433ee1e91b7b941",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 16,
+      "source": "exchanges/candidate-008.md",
+      "source_sha256": "9db14d5ce6521a5ade12a4693b720ce21b653eab6bf86ce300906ca51339ba23",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 17,
+      "source": "exchanges/interviewer-009.md",
+      "source_sha256": "88c932a63c94ed60066cf045e26dc10f747deaea3ababfb4577d567a58516b44",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 18,
+      "source": "exchanges/candidate-009.md",
+      "source_sha256": "ba6a7310d5fb194e6fa571e06ccdc52c4174c2dbf9b1d53a21c7ebf900a6ebb0",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 19,
+      "source": "exchanges/interviewer-010.md",
+      "source_sha256": "df27dddb3a0e80a204cc4118228743bc5df93aad3feddce28390dae680e50e5b",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 20,
+      "source": "exchanges/candidate-010.md",
+      "source_sha256": "002a3b91d8c125730d2a6d325c5bcab90b5f049e6351056591baeb9a6bc44439",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 21,
+      "source": "exchanges/interviewer-011.md",
+      "source_sha256": "ef4ef8b505cf332e5ec6fd2bc73d1f38c3b1193adc3df6d5d39f596e292a0d97",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 22,
+      "source": "exchanges/candidate-011.md",
+      "source_sha256": "e2a6262c5535790ca68dbcd7784f79166e9d2b170e17e3dc199a079f43d4df66",
+      "sender": "/root/synthetic_candidate",
+      "recipient": "/root/synthetic_interviewer",
+      "tool": "collaboration.followup_task",
+      "dispatch_timestamp": "未记录",
+      "note": "Verbatim question/answer forwarded; no evaluator comments appended."
+    },
+    {
+      "sequence": 23,
+      "source": "exchanges/interviewer-012.md",
+      "source_sha256": "1145abc2d61eaad7d29623cac63c4be01fc0958937d809ad34ef2c2cd0f73f67",
+      "sender": "/root/synthetic_interviewer",
+      "recipient": "/root/synthetic_candidate",
+      "tool": "collaboration.send_message",
+      "dispatch_timestamp": "未记录",
+      "note": "Final reverse-answer and report forwarded without triggering a new candidate turn."
+    }
+  ]
+}

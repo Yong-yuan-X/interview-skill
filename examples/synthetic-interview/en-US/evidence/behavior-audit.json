@@ -1,0 +1,27 @@
+{
+  "test_label": "AI synthetic test",
+  "review_type": "Mediator semantic review of actual dialogue and report, not automated behavior proof",
+  "required_checks": {
+    "feedback_timing": "passed",
+    "followup_limits": "passed",
+    "scoring_citations": "passed",
+    "actual_scoring_consistency": "passed"
+  },
+  "findings": [
+    {
+      "id": "EN-001",
+      "status": "observed",
+      "category": "answer_tool_policy_in_improvement_advice",
+      "rule": "installed-skills/interview-skill/references/questions.md:23",
+      "actual_evidence": [
+        "final-report.md:13",
+        "final-report.md:83",
+        "final-report.md:84"
+      ],
+      "finding": "Unqualified code-based implementation and verification instructions despite the no-code-execution policy; no later permission was given.",
+      "impact": "Post-interview advice mismatch. No prohibited candidate execution occurred; score unchanged.",
+      "original_report_preserved": true
+    }
+  ],
+  "behavioral_all_passed": false
+}

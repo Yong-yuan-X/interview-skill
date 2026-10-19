@@ -1,0 +1,231 @@
+{
+  "test_label": "AI 合成测试",
+  "audited_at_utc": "2026-10-19T11:40:28.085740+00:00",
+  "scope": "Artifact integrity and arithmetic; behavioral and citation semantics require human/model review in validation.md.",
+  "passed": true,
+  "checks": [
+    {
+      "check": "transcript_matches_original_messages",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "chronological_sequence_and_alternation",
+      "passed": true,
+      "details": {
+        "messages": 23
+      }
+    },
+    {
+      "check": "markdown_transcript_matches_log",
+      "passed": true,
+      "details": "Harness header permits Windows CRLF. Message bodies and their line endings are compared exactly."
+    },
+    {
+      "check": "preexisting_files_preserved",
+      "passed": true,
+      "details": {
+        "files": 42,
+        "changed": []
+      }
+    },
+    {
+      "check": "new_files_confined_to_test_directory",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "prepared_inputs_unchanged",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "installed_snapshot_unchanged",
+      "passed": true,
+      "details": {
+        "files": 18,
+        "changed": []
+      }
+    },
+    {
+      "check": "head_unchanged",
+      "passed": true,
+      "details": {
+        "head": "4f493b07f1e2cdcac0d050a5abbf5b6b620bde93"
+      }
+    },
+    {
+      "check": "frozen_standards_unchanged",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "question_records_match_actual_messages",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "followup_limit",
+      "passed": true,
+      "details": {
+        "Q1": 0,
+        "Q2": 1,
+        "Q3": 0,
+        "Q4": 2,
+        "Q5": 0,
+        "Q6": 1
+      }
+    },
+    {
+      "check": "score_answers_match_raw_dialogue",
+      "passed": true,
+      "details": {
+        "scoring_answers": 10,
+        "mismatches": [],
+        "comparison": "Only terminal newlines and CRLF/LF are normalized; no words changed."
+      }
+    },
+    {
+      "check": "answer_ids_unique",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "rating_references_exist",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "weights_match_frozen_standards",
+      "passed": true,
+      "details": {
+        "technical_foundation": 25,
+        "project_ownership": 20,
+        "architecture_judgment": 20,
+        "engineering_practice": 15,
+        "troubleshooting": 15,
+        "technical_communication": 5
+      }
+    },
+    {
+      "check": "critical_dimensions_match_frozen_standards",
+      "passed": true,
+      "details": [
+        "technical_foundation",
+        "project_ownership",
+        "architecture_judgment",
+        "engineering_practice",
+        "troubleshooting"
+      ]
+    },
+    {
+      "check": "independent_decimal_arithmetic",
+      "passed": true,
+      "details": {
+        "terms": [
+          {
+            "dimension": "technical_foundation",
+            "weight": "25",
+            "level": "Below",
+            "coefficient": "0.5",
+            "weighted_term": "12.5"
+          },
+          {
+            "dimension": "project_ownership",
+            "weight": "20",
+            "level": "Meets",
+            "coefficient": "0.75",
+            "weighted_term": "15.00"
+          },
+          {
+            "dimension": "architecture_judgment",
+            "weight": "20",
+            "level": "Below",
+            "coefficient": "0.5",
+            "weighted_term": "10.0"
+          },
+          {
+            "dimension": "engineering_practice",
+            "weight": "15",
+            "level": "Meets",
+            "coefficient": "0.75",
+            "weighted_term": "11.25"
+          },
+          {
+            "dimension": "troubleshooting",
+            "weight": "15",
+            "level": "Meets",
+            "coefficient": "0.75",
+            "weighted_term": "11.25"
+          },
+          {
+            "dimension": "technical_communication",
+            "weight": "5",
+            "level": "Meets",
+            "coefficient": "0.75",
+            "weighted_term": "3.75"
+          }
+        ],
+        "numerator": "63.75",
+        "denominator": "100",
+        "score": "63.75",
+        "coverage_percent": "100"
+      }
+    },
+    {
+      "check": "calculator_repeat_input_identical",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "calculator_repeat_output_identical",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "check": "calculator_executions_succeeded",
+      "passed": true,
+      "details": [
+        {
+          "label": "interviewer",
+          "exit_code": 0,
+          "command": [
+            "E:\\PYTHON\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\.github\\interview-skill\\examples\\synthetic-interview\\installed-skills\\interview-skill\\scripts\\score.py",
+            "E:\\.github\\interview-skill\\examples\\synthetic-interview\\evidence\\interviewer-score-001.input.json"
+          ]
+        },
+        {
+          "label": "parent",
+          "exit_code": 0,
+          "command": [
+            "E:\\PYTHON\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\.github\\interview-skill\\examples\\synthetic-interview\\installed-skills\\interview-skill\\scripts\\score.py",
+            "E:\\.github\\interview-skill\\examples\\synthetic-interview\\evidence\\parent-score-001.input.json"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "final_report_is_actual_last_turn",
+      "passed": true,
+      "details": {
+        "last_source": "exchanges/interviewer-012.md"
+      }
+    },
+    {
+      "check": "reported_total_matches_calculator",
+      "passed": true,
+      "details": {
+        "calculator_score": 63.75
+      }
+    }
+  ],
+  "candidate_messages": 11
+}

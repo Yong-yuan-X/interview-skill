@@ -1,0 +1,12 @@
+{
+  "model_identifier": "Not recorded",
+  "reasoning_effort": "Not recorded",
+  "session_identifier": "Not recorded",
+  "timestamp_utc": "2026-10-19T13:53:17Z",
+  "sources": {
+    "model_identifier": "No exact identifier confirmed by host context.",
+    "reasoning_effort": "No effort value confirmed by host context.",
+    "session_identifier": "No session ID confirmed by host context; a task handle is not a session ID."
+  },
+  "task_handle": "/root/english_interviewer"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "model_identifier": {
+    "value": "Not recorded",
+    "source": "Not recorded: the host did not explicitly confirm an actual model identifier."
+  },
+  "reasoning_effort": {
+    "value": "Not recorded",
+    "source": "Not recorded: the host did not explicitly confirm reasoning effort."
+  },
+  "session_identifier": {
+    "value": "Not recorded",
+    "source": "Not recorded: the host did not explicitly confirm a session identifier. Task handles were not used."
+  }
+}

@@ -1,0 +1,5 @@
+﻿Increasing top-k to eight gives retrieval more chances to include the missing exception. It would be a simpler setting to compare without changing the existing chunks. But the next chunk in the document might still rank below eight, so it wouldn’t guarantee that we retrieve it.
+
+The trade-off is that we also pass more text to generation, potentially including irrelevant or repeated passages. I would expect a larger prompt and potentially higher generation cost and latency, but I haven’t measured those effects. More passages also don’t automatically produce a more accurate answer if the additional text distracts from the relevant evidence.
+
+I would compare four and eight on the same questions, keeping the other settings fixed. I would first check whether the required evidence appears, then whether the answer uses the exception correctly. I would also record prompt size and request duration during that comparison. Organization filtering would still need to happen before selecting either four or eight passages.

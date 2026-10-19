@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "timestamp_utc": "2026-10-19T13:53:17Z",
+  "label": "AI Synthetic Test",
+  "mode": "realistic_simulation",
+  "interview_type": "technical",
+  "target_experience_years": 1,
+  "target_basis": "Explicit interview request and JD",
+  "weights": {
+    "technical_foundation": 25,
+    "project_ownership": 20,
+    "architecture_judgment": 20,
+    "engineering_practice": 15,
+    "troubleshooting": 15,
+    "technical_communication": 5
+  },
+  "critical_dimensions": [
+    "technical_foundation",
+    "project_ownership",
+    "architecture_judgment",
+    "engineering_practice",
+    "troubleshooting"
+  ],
+  "critical_abilities": [
+    {
+      "id": "rag_lifecycle",
+      "dimensions": [
+        "technical_foundation",
+        "project_ownership"
+      ],
+      "requirement": "Explain the owned lifecycle, request and response validation, retrieval, prompt/generation, citations and insufficiency."
+    },
+    {
+      "id": "trust_and_isolation",
+      "dimensions": [
+        "technical_foundation",
+        "engineering_practice"
+      ],
+      "requirement": "Trusted identity filters retrieval before top-k; retrieved text remains untrusted; prompting is no comprehensive injection defense."
+    },
+    {
+      "id": "provider_reliability",
+      "dimensions": [
+        "engineering_practice",
+        "project_ownership"
+      ],
+      "requirement": "Bounded timeouts/retries, accurate API error semantics and confidential-data-safe logs; distinguish implemented and proposed behavior."
+    },
+    {
+      "id": "validation_and_evaluation",
+      "dimensions": [
+        "engineering_practice",
+        "troubleshooting"
+      ],
+      "requirement": "Meaningful success/failure tests; distinguish retrieval relevance and generated claim support; recognize schema/citation-membership limits."
+    },
+    {
+      "id": "retrieval_tradeoffs",
+      "dimensions": [
+        "architecture_judgment",
+        "technical_foundation"
+      ],
+      "requirement": "Elementary chunking/top-k rationale with a concrete example and modest verification without invented outcomes."
+    },
+    {
+      "id": "feature_debugging",
+      "dimensions": [
+        "troubleshooting",
+        "project_ownership"
+      ],
+      "requirement": "Evidence-driven hypotheses, discriminating checks, focused verification and escalation beyond owned scope."
+    }
+  ],
+  "dimension_anchors": {
+    "technical_foundation": {
+      "weight": 25,
+      "basis": "JD RAG/trust/retrieval mechanisms -> 1-year feature ownership -> concrete request explanation -> Q1,Q2,Q5",
+      "Strong": "Accurately connects mechanisms, changed constraints and specific verification beyond routine scope.",
+      "Meets": "Independently explains validated RAG flow, trusted isolation, untrusted text, citation checks and their limits using concrete examples.",
+      "Below": "Some correct mechanisms with material gaps in role-level lifecycle, trust or validation.",
+      "Weak": "Sufficient evidence shows inability to explain basic request mechanisms or essential trust boundaries."
+    },
+    "project_ownership": {
+      "weight": 20,
+      "basis": "JD personal contribution -> 1-year endpoint/wrapper ownership -> implementation detail and responsibility boundaries -> Q1,Q3,Q4",
+      "Strong": "Precise owned mechanisms, alternatives and evidence, consistently bounding measured outcomes and responsibility.",
+      "Meets": "Concrete endpoint/wrapper explanation, consistently distinguishing own work, colleagues' work, assumptions and proposals.",
+      "Below": "Partial implementation explanation with material gaps in detail or responsibility boundaries.",
+      "Weak": "Sufficient evidence shows inability to explain core modules claimed as owned; contradictions require verification, not authenticity judgments."
+    },
+    "architecture_judgment": {
+      "weight": 20,
+      "basis": "JD feature tradeoffs -> 1-year scope -> concrete chunk/top-k tradeoff with modest comparison -> Q3,Q5",
+      "Strong": "Reasons through interacting constraints and controlled comparisons with specific counterexamples beyond baseline.",
+      "Meets": "Explains elementary chunking, top-k and reliability tradeoffs with a concrete example and feasible verification.",
+      "Below": "Plausible choices but materially weak rationale, examples or comparison design.",
+      "Weak": "Sufficient evidence shows inability to reason about basic feature choices or meaningful verification."
+    },
+    "engineering_practice": {
+      "weight": 15,
+      "basis": "JD security/reliability/tests -> 1-year feature scope -> safe access, bounded retries, explicit failures, safe logs and tests -> Q2,Q3,Q4",
+      "Strong": "Handles ordinary and edge-case semantics, test limitations and security limitations with concrete proportionate validation.",
+      "Meets": "Explains trusted access, bounded provider behavior, correct failure mappings, safe diagnostics and success/failure tests, recognizing mock/schema limits.",
+      "Below": "Partly correct with material gaps in security, reliability, failure semantics or tests.",
+      "Weak": "Sufficient evidence shows inability to protect access or handle ordinary provider errors/tests."
+    },
+    "troubleshooting": {
+      "weight": 15,
+      "basis": "JD fault isolation -> 1-year feature scope -> observable hypotheses and discriminating checks -> Q4,Q6",
+      "Strong": "Prioritizes competing hypotheses, discriminating tests, evidence limitations and regression verification.",
+      "Meets": "Uses request/stage evidence to distinguish retrieval, generation/support and provider failures, proposing focused checks and appropriate escalation.",
+      "Below": "Generic debugging without useful discrimination or with retrieval/support confusion.",
+      "Weak": "Sufficient evidence shows inability to localize routine feature failure or use available evidence."
+    },
+    "technical_communication": {
+      "weight": 5,
+      "basis": "JD explain features -> 1-year scope -> causal reasoning and clear uncertainty -> all questions",
+      "Strong": "Consistently precise, concise causal explanations and examples responsive to follow-ups.",
+      "Meets": "Understandable connected explanations addressing questions and distinguishing facts, uncertainty and proposals.",
+      "Below": "Expression repeatedly obscures substantive reasoning despite neutral clarification.",
+      "Weak": "Sufficient evidence shows inability to communicate necessary reasoning; brevity, style and nervousness alone do not justify this."
+    }
+  },
+  "level_coefficients": {
+    "Strong": 1,
+    "Meets": 0.75,
+    "Below": 0.5,
+    "Weak": 0.25
+  },
+  "question_plan": [
+    {
+      "id": "Q1",
+      "category": "project_deep_dive",
+      "objective": "Owned request lifecycle",
+      "dimensions": [
+        "technical_foundation",
+        "project_ownership"
+      ],
+      "planned_core": "Walk through one endpoint request from receipt to response.",
+      "followup_directions": [
+        "unclear mechanism",
+        "ownership boundary"
+      ],
+      "evidence_needed": "Concrete lifecycle, mechanisms and boundaries"
+    },
+    {
+      "id": "Q2",
+      "category": "role_technical_knowledge",
+      "objective": "Trust and organization isolation",
+      "dimensions": [
+        "technical_foundation",
+        "engineering_practice"
+      ],
+      "planned_core": "Explain how retrieval remains scoped under adversarial input.",
+      "followup_directions": [
+        "selection order",
+        "retrieved instructions",
+        "isolation verification"
+      ],
+      "evidence_needed": "Trusted identity, filtering before top-k, untrusted passages and limitations"
+    },
+    {
+      "id": "Q3",
+      "category": "project_deep_dive",
+      "objective": "Provider reliability",
+      "dimensions": [
+        "project_ownership",
+        "engineering_practice",
+        "architecture_judgment"
+      ],
+      "planned_core": "Explain wrapper behavior under a transient failure.",
+      "followup_directions": [
+        "budget and mappings",
+        "safe diagnostics",
+        "unimplemented edges"
+      ],
+      "evidence_needed": "Implemented limits, failure semantics, safe logs and honest boundaries"
+    },
+    {
+      "id": "Q4",
+      "category": "project_deep_dive",
+      "objective": "Tests and evaluation",
+      "dimensions": [
+        "engineering_practice",
+        "troubleshooting",
+        "project_ownership"
+      ],
+      "planned_core": "Distinguish retrieval from generation failure in an evaluation example.",
+      "followup_directions": [
+        "claim support versus schema/citation checks",
+        "success-path test",
+        "20-question limits"
+      ],
+      "evidence_needed": "Separate error classes, useful tests and evaluation limitations"
+    },
+    {
+      "id": "Q5",
+      "category": "role_technical_knowledge",
+      "objective": "Chunking and top-k tradeoffs",
+      "dimensions": [
+        "architecture_judgment",
+        "technical_foundation"
+      ],
+      "planned_core": "Reason about a chunk-boundary failure and a modest setting comparison.",
+      "followup_directions": [
+        "concrete choice and cost",
+        "verification"
+      ],
+      "evidence_needed": "Example, tradeoff and feasible comparison"
+    },
+    {
+      "id": "Q6",
+      "category": "engineering_scenario",
+      "objective": "Evidence-based debugging",
+      "dimensions": [
+        "troubleshooting",
+        "engineering_practice"
+      ],
+      "planned_core": "Investigate a hypothetical feature failure using request/stage evidence.",
+      "followup_directions": [
+        "discriminating check",
+        "verification/escalation"
+      ],
+      "evidence_needed": "Prioritized hypotheses, useful evidence and scoped action"
+    }
+  ],
+  "followup_policy": "0-3 per main; stop on unknown/skip or two consecutive ineffective answers on same topic",
+  "pacing": "Roughly 5-6 main questions and necessary follow-ups; no reliable timing assumed",
+  "candidate_tool_policy": {
+    "reference_lookup": false,
+    "other_ai": false,
+    "code_execution": false,
+    "reported_use": "not reported"
+  },
+  "standards_frozen_before_first_question": true
+}

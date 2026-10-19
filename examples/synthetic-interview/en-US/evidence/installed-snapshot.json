@@ -1,0 +1,83 @@
+{
+  "test_label": "AI synthetic test",
+  "skill_commit_sha": "4f493b07f1e2cdcac0d050a5abbf5b6b620bde93",
+  "installed_path": "installed-skills/interview-skill",
+  "source": "Local byte-for-byte copy of the previously skill-installer-installed pinned snapshot. No installer invocation or global installation in this run.",
+  "source_path": "../zh-CN/installed-skills/interview-skill",
+  "verified_against_commit": true,
+  "recorded_at_utc": "2026-10-19T13:50:29.475968+00:00",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "dd70fd2543e61db505fef2c5b12c60f9d9f4ea505c079528fd9b91c880152bcb"
+    },
+    {
+      "path": "assets/report-template.md",
+      "sha256": "46195625fab2a87c0401dd072029312e562126c738f2c26d44971e18d9ce1309"
+    },
+    {
+      "path": "assets/rubrics.json",
+      "sha256": "fd94b70c3cca9241437aa4acd00615cfb61290981fca3e36f15f40deeb736daf"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a53c5283caac717ae82da58048d0bbee1e559162e865d2d6aa74383b0dca4f41"
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6cb28981d583a7778cd5f0bec76ad0d4f60486c979167727d79b957a27d5440c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "201d8b1d069b2d066ffc366fca3ab2a9af467aa6103791f2e01a84432c3c476d"
+    },
+    {
+      "path": "references/design-notes.md",
+      "sha256": "c030c9542c05640d7c82310b0edaacab6fb0dbe6a3dd593af3165b80d2de908c"
+    },
+    {
+      "path": "references/evaluation.md",
+      "sha256": "dd9b9e30e7199b7d0148e68d86675a2edc2d450c172d075b8a9dbd8688ac22ff"
+    },
+    {
+      "path": "references/questions.md",
+      "sha256": "90e989c15eef623b310c92fa04ee1c6b8ad5a7a8aba5d0e848d1e90e9833951e"
+    },
+    {
+      "path": "references/scoring-input.md",
+      "sha256": "21c5abe7d3d9b8d82f0dbc73641dac9a5128f48cd661f35642ccd747b022ab67"
+    },
+    {
+      "path": "references/workflows.md",
+      "sha256": "a4fe98013c105a4211ac8fe9dc3039e6c7ff84823b32d48d87d8169c9d770406"
+    },
+    {
+      "path": "scripts/score.py",
+      "sha256": "43bb819f8edfdee7989a8a663e016a735fed8e835d53dcf061206b80dfda5bc0"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "e8b98ca292a8d663baee4e0997be76ee756fbf97addd5ee75ef26a9e6935547f"
+    },
+    {
+      "path": "tests/behavior-cases.md",
+      "sha256": "4ccf70d760c415de24ea978dbe98db563fb3e576ca879ef592a5bf5441d323ef"
+    },
+    {
+      "path": "tests/behavior-inputs.json",
+      "sha256": "645db26cf8534d798b71eaf5e17d499cb21fb8bbe26cf07a12f31bd93b0cf9b2"
+    },
+    {
+      "path": "tests/behavior-results.md",
+      "sha256": "35df5c19d1fcbb5d401c8a493fa26bb285b9aacd740a4f0a0ed878cb52204965"
+    },
+    {
+      "path": "tests/fixtures/score-input.json",
+      "sha256": "2a3b6ac2c718c6f217396160028987e16b110bacf23b287cb8f77cc35b2d60c7"
+    },
+    {
+      "path": "tests/test_score.py",
+      "sha256": "b014b8061210ba4d2b30d777cb99dafb84e4376b4eb70de9d4c6bc8f1e5ff16d"
+    }
+  ]
+}

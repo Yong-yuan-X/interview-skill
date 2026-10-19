@@ -1,0 +1,7 @@
+﻿I would start with the request ID and trace the retrieval and generation records for that request. HTTP 200 tells me the provider returned a successful HTTP response; it doesn’t establish that its body passed our validation. Nonempty retrieval also doesn’t establish that its passages were relevant.
+
+For `MODEL_RESPONSE_INVALID`, I would check which validation step failed: JSON parsing, the Pydantic field checks, or citation membership. I would compare that category with the logged retrieved chunk IDs and confirm that the endpoint used the retrieved set from this request for its citation check. I would also check the attempt count; malformed successful output should not trigger a retry in our wrapper.
+
+If the logs don’t distinguish those validation failures, I wouldn’t guess the cause from the 200 status. I would propose adding a sanitized validation category, such as JSON parse failure or out-of-set citation, without logging the complete provider response, confidential passages, prompt, or full user question.
+
+Once we have enough evidence, I would reproduce the failure with a fake provider response. For example, if an otherwise valid response contains an unknown citation ID, the test should assert 502 with `MODEL_RESPONSE_INVALID` and one provider call. I would bring the evidence to a senior engineer if the cause remained unclear. This is how I would investigate the hypothetical; I don’t have a confirmed production incident to describe.

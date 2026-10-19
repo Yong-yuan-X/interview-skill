@@ -1,0 +1,8 @@
+﻿{
+  "actual_model_identifier": "未记录",
+  "reasoning_effort": "未记录",
+  "session_identifier": "未记录",
+  "source": "宿主未明确提供本候选人代理的实际模型标识、推理强度及会话标识；未从模型家族描述或全局配置推断。",
+  "agent_task_identifier": "/root/synthetic_candidate",
+  "agent_task_identifier_source": "宿主 NEW_TASK 消息中的 Task name；该值为任务标识，不作为会话标识。"
+}

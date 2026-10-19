@@ -1,0 +1,99 @@
+{
+  "test_label": "AI 合成测试",
+  "status": "completed",
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "recorded_at_utc": "2026-10-19T11:18:19.372516+00:00",
+  "repository": "https://github.com/Yong-yuan-X/interview-skill",
+  "skill_commit_sha": "4f493b07f1e2cdcac0d050a5abbf5b6b620bde93",
+  "installed_skill_path": "installed-skills/interview-skill",
+  "installation": "isolated skill-installer download pinned to the recorded commit; no global installation",
+  "host": {
+    "session_type": "Codex agent session with collaboration tools",
+    "session_host_build": "未记录",
+    "local_codex_cli_version": "0.162.0-alpha.17.2",
+    "cli_version_scope": "Observed local executable version; not asserted to be the session host build.",
+    "powershell_version": "5.1.26100.9711",
+    "os_version": "Microsoft Windows NT 10.0.26200.0",
+    "python_version": "3.10.9"
+  },
+  "agents": {
+    "mediator": {
+      "handle": "/root",
+      "model": "未记录",
+      "reasoning_effort": "未记录"
+    },
+    "interviewer": {
+      "handle": "/root/synthetic_interviewer",
+      "fork_turns": "none",
+      "model": "未记录",
+      "reasoning_effort": "未记录",
+      "model_override": null,
+      "reasoning_override": null,
+      "runtime_session_id": "未记录"
+    },
+    "candidate": {
+      "handle": "/root/synthetic_candidate",
+      "fork_turns": "none",
+      "model": "未记录",
+      "reasoning_effort": "未记录",
+      "model_override": null,
+      "reasoning_override": null,
+      "runtime_session_id": "未记录"
+    }
+  },
+  "independence": "Both agents were spawned with fork_turns=none and receive separate role-specific materials; model identity and effort are not exposed by spawn results.",
+  "preexisting_changes_preserved": true,
+  "input_sha256": {
+    "candidate-agent-task.md": "23a83dab0253997fd031c2366e5a8e780957085b630f8072d3d4efbbd323671e",
+    "candidate-profile.md": "5f55197fb1d51a80675d646d85571dd55fbd473bcb7db6e99bb14807033d4ff6",
+    "interview-request.md": "9ddfef68d556ec69c0e88f19dd33b246ba19f1281f3c12e069ccb2085b9544a2",
+    "interviewer-agent-task.md": "22b6df0dc12aa8e6872ffb406511b1bea3b6ae37db45687b80fbba46741a741a",
+    "jd.md": "e4cb4391f7ab99f9c4634f66cdb598b0d7a52b171029c565135feb954579faea",
+    "project-facts.md": "f52fdf8aafa4e7ab77c8ba2f221c6fc2295be35e4a8cedd4d989af87fe6d97e6",
+    "resume.md": "6678af054c6de04759c8ecf688d41dbd68b75a2710feafbcb43c6f865c915262"
+  },
+  "completed_at_utc": "2026-10-19T11:40:10.830180+00:00",
+  "interview": {
+    "completion": "normal_end",
+    "main_questions": 6,
+    "followups": 4,
+    "followups_per_main": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "candidate_reverse_questions": 1,
+    "actual_dialogue_messages": 23,
+    "first_message_captured_at_utc": "2026-10-19T11:19:11.098175+00:00",
+    "last_message_captured_at_utc": "2026-10-19T11:35:02.189927+00:00",
+    "timestamps_scope": "Capture times are mediator file-write times, not asserted generation or delivery times."
+  },
+  "results": {
+    "score": 63.75,
+    "coverage_percent": 100.0,
+    "scoring_script_runs": 2,
+    "both_exit_codes": 0,
+    "outputs_identical": true,
+    "independent_decimal_arithmetic_matches": true,
+    "rating_answer_references_reviewed": 21,
+    "scoring_answers_compared_to_actual_dialogue": 10,
+    "feedback_leakage_observed": false,
+    "followup_limit_exceeded": false,
+    "incorrect_rating_citation_observed": false,
+    "artifact_integrity_checks_passed": 22
+  },
+  "limits": [
+    "Global skill discovery and automatic invocation not tested.",
+    "Actual agent model IDs, reasoning efforts, current session host build and session IDs not exposed.",
+    "Logical no-history and role-resource separation; no OS-level access isolation or independent file-access audit.",
+    "Single AI/AI technical round; no external human grading truth."
+  ],
+  "validation_file": "validation.md",
+  "preexisting_files_unchanged": 42,
+  "new_files_scope": "examples/synthetic-interview/",
+  "commit_or_push_performed": false
+}

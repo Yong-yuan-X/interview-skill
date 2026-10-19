@@ -1,0 +1,11 @@
+{
+  "actual_model_identifier": "未记录",
+  "model_identifier_source": "宿主未向本代理提供可明确确认的实际模型标识；不从模型家族描述推断。",
+  "actual_reasoning_effort": "未记录",
+  "reasoning_effort_source": "宿主未明确提供本代理实际推理强度。",
+  "actual_session_identifier": "未记录",
+  "session_identifier_source": "宿主未提供可确认的会话标识。",
+  "agent_task_identifier": "/root/synthetic_interviewer",
+  "agent_task_identifier_source": "宿主 NEW_TASK 消息的 Task name。",
+  "recorded_at_utc": "2026-10-19 11:17:43 UTC"
+}

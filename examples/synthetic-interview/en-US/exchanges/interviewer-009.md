@@ -1,0 +1,1 @@
+Suppose a policy’s main rule is at the end of one chunk and an important exception is in the next chunk, which is absent from the retrieved top four. What retrieval-setting change would you try first?

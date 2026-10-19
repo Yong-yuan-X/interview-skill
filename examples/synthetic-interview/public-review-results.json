@@ -1,0 +1,160 @@
+{
+  "scope": "isolated_export_public_verification",
+  "recorded_at_utc": "2026-10-19T15:16:29.871925+00:00",
+  "export_mode": "raw",
+  "export_directory": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+  "source_index_fingerprint_excluding_this_record": "d222c6ce6ed9192684c5d44dfefdf7ce937df25ad58db6a55bf6713f29fc96ae",
+  "fingerprint_excluded_path": "examples/synthetic-interview/public-review-results.json",
+  "exported_files": 151,
+  "public_entrypoints_passed": 4,
+  "public_audit_checks_per_language": 24,
+  "original_message_hashes_checked": 48,
+  "original_message_hash_mismatches": [],
+  "missing_document_links": [],
+  "no_git_directory": true,
+  "no_installed_skill_copies": true,
+  "no_private_baselines": true,
+  "public_verification_passed": true,
+  "commands": [
+    {
+      "command": [
+        "E:\\PYTHON\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "examples/synthetic-interview/zh-CN/audit_run.py"
+      ],
+      "cwd": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+      "exit_code": 0,
+      "stdout": "{\"scope\": \"public_artifacts_and_scoring_only\", \"passed\": true, \"checks\": 24, \"failed\": [], \"not_executed\": [{\"check\": \"local_workspace_preservation\", \"status\": \"not_executed\", \"reason\": \"Separate local_audit.py; private baseline is not a public dependency\"}, {\"check\": \"interview_behavior_semantics\", \"status\": \"not_reexecuted\", \"reason\": \"Historical manual/model review in validation.md; this audit does not replay agents\"}], \"output\": \"C:\\\\Users\\\\DOUZI\\\\AppData\\\\Local\\\\Temp\\\\interview-public-raw-ca6ybm2k\\\\examples\\\\synthetic-interview\\\\zh-CN\\\\review-output\\\\public-audit.json\"}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "matched_expected_exit": true
+    },
+    {
+      "command": [
+        "E:\\PYTHON\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "examples/synthetic-interview/zh-CN/run_score.py",
+        "evidence/interviewer-score-001.input.json",
+        "--label",
+        "public"
+      ],
+      "cwd": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+      "exit_code": 0,
+      "stdout": "{\"execution\": \"review-output/public-score-001.execution.json\", \"exit_code\": 0, \"score\": 63.75, \"coverage_percent\": 100.0, \"judgment_status\": \"requires_model_judgment\"}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "matched_expected_exit": true
+    },
+    {
+      "command": [
+        "E:\\PYTHON\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "examples/synthetic-interview/local_audit.py",
+        "zh-CN"
+      ],
+      "cwd": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+      "exit_code": 2,
+      "stdout": "{\"scope\": \"local_workspace_preservation_only\", \"public_verification\": false, \"status\": \"not_executed\", \"reason\": \"Original local baseline is not published\"}\n",
+      "stderr": "",
+      "expected_exit_code": 2,
+      "matched_expected_exit": true
+    },
+    {
+      "command": [
+        "E:\\PYTHON\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "examples/synthetic-interview/en-US/audit_run.py"
+      ],
+      "cwd": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+      "exit_code": 0,
+      "stdout": "{\"scope\": \"public_artifacts_and_scoring_only\", \"passed\": true, \"checks\": 24, \"failed\": [], \"not_executed\": [{\"check\": \"local_workspace_preservation\", \"status\": \"not_executed\", \"reason\": \"Separate local_audit.py; private baseline is not a public dependency\"}, {\"check\": \"interview_behavior_semantics\", \"status\": \"not_reexecuted\", \"reason\": \"Historical manual/model review in validation.md; this audit does not replay agents\"}], \"output\": \"C:\\\\Users\\\\DOUZI\\\\AppData\\\\Local\\\\Temp\\\\interview-public-raw-ca6ybm2k\\\\examples\\\\synthetic-interview\\\\en-US\\\\review-output\\\\public-audit.json\"}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "matched_expected_exit": true
+    },
+    {
+      "command": [
+        "E:\\PYTHON\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "examples/synthetic-interview/en-US/run_score.py",
+        "evidence/interviewer-score-001.input.json",
+        "--label",
+        "public"
+      ],
+      "cwd": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+      "exit_code": 0,
+      "stdout": "{\"execution\": \"review-output/public-score-001.execution.json\", \"exit_code\": 0, \"score\": 76.25, \"coverage_percent\": 100.0, \"judgment_status\": \"requires_model_judgment\"}\n",
+      "stderr": "",
+      "expected_exit_code": 0,
+      "matched_expected_exit": true
+    },
+    {
+      "command": [
+        "E:\\PYTHON\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "examples/synthetic-interview/local_audit.py",
+        "en-US"
+      ],
+      "cwd": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+      "exit_code": 2,
+      "stdout": "{\"scope\": \"local_workspace_preservation_only\", \"public_verification\": false, \"status\": \"not_executed\", \"reason\": \"Original local baseline is not published\"}\n",
+      "stderr": "",
+      "expected_exit_code": 2,
+      "matched_expected_exit": true
+    },
+    {
+      "command": [
+        "E:\\PYTHON\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "examples/synthetic-interview",
+        "-p",
+        "test_public_review.py",
+        "-v"
+      ],
+      "cwd": "C:\\Users\\DOUZI\\AppData\\Local\\Temp\\interview-public-raw-ca6ybm2k",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_both_archives_replay_without_git_installation_or_local_baseline (test_public_review.PublicReviewTests) ... ok\ntest_changed_original_answer_fails_exact_integrity (test_public_review.PublicReviewTests) ... ok\ntest_changed_runtime_is_refused_before_execution (test_public_review.PublicReviewTests) ... ok\ntest_invalid_citation_is_rejected (test_public_review.PublicReviewTests) ... ok\ntest_output_cannot_overwrite_original_evidence (test_public_review.PublicReviewTests) ... ok\ntest_wrong_tested_version_is_rejected (test_public_review.PublicReviewTests) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 3.456s\n\nOK\n",
+      "expected_exit_code": 0,
+      "matched_expected_exit": true
+    }
+  ],
+  "not_executed": [
+    {
+      "scope": "local_workspace_preservation",
+      "status": "not_executed",
+      "reason": "Private baseline absent; separately tested optional local CLI reports this with exit 2."
+    },
+    {
+      "scope": "new_interview_or_behavioral_regrading",
+      "status": "not_executed",
+      "reason": "Only archived evidence and scoring are replayed."
+    },
+    {
+      "scope": "live_application_or_external_provider_testing",
+      "status": "not_executed",
+      "reason": "No real project environment supplied."
+    }
+  ],
+  "historical_behavior_findings": [
+    "EN-001 remains recorded; report and Skill unchanged."
+  ]
+}

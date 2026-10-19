@@ -1,0 +1,217 @@
+{
+  "frozen_at_utc": "2026-10-19 11:17:43 UTC",
+  "frozen_before_first_question": true,
+  "mode": "realistic_simulation",
+  "interview_type": "technical",
+  "conversation_language": "中文",
+  "target_experience_years": 2,
+  "assessment_goal": "评估合成候选人是否具备目标 2 年 Python 后端岗位所需技术能力与工程实践；仅作模拟练习。",
+  "materials": {
+    "read": [
+      "inputs/interview-request.md",
+      "inputs/jd.md",
+      "inputs/resume.md",
+      "inputs/project-facts.md"
+    ],
+    "code_access": "无项目代码，仅已提供文字事实",
+    "external_services_used": false
+  },
+  "answer_tool_policy": {
+    "reference_lookup": false,
+    "other_ai": false,
+    "code_execution": false,
+    "source": "用户 interview-request.md",
+    "reported_use": "not reported"
+  },
+  "pacing": "无可靠计时要求；约 5–6 道主问题及必要追问；每组 0–3 次追问；两次连续无有效证据或明确不知时停止该主题；主问题后安排一次反向提问。",
+  "feedback_policy": "结束后统一反馈；本轮过程中不提供答案、纠正、评分或评价性暗示。",
+  "weights": {
+    "technical_foundation": 25,
+    "project_ownership": 20,
+    "architecture_judgment": 20,
+    "engineering_practice": 15,
+    "troubleshooting": 15,
+    "technical_communication": 5
+  },
+  "level_coefficients": {
+    "Strong": 1,
+    "Meets": 0.75,
+    "Below": 0.5,
+    "Weak": 0.25
+  },
+  "critical_dimensions": [
+    "technical_foundation",
+    "project_ownership",
+    "architecture_judgment",
+    "engineering_practice",
+    "troubleshooting"
+  ],
+  "critical_abilities": [
+    {
+      "id": "tenant_isolation",
+      "dimensions": [
+        "project_ownership",
+        "engineering_practice",
+        "technical_foundation"
+      ],
+      "requirement": "可信租户上下文约束查询、更新与缓存，拒绝信任客户端租户；能说明跨租户验证方法。"
+    },
+    {
+      "id": "concurrent_correctness",
+      "dimensions": [
+        "technical_foundation",
+        "project_ownership",
+        "engineering_practice"
+      ],
+      "requirement": "能解释带租户与版本条件的原子更新、事务提交回滚及冲突处理，不把并发异常伪装为成功。"
+    },
+    {
+      "id": "query_reasoning",
+      "dimensions": [
+        "technical_foundation",
+        "architecture_judgment"
+      ],
+      "requirement": "理解稳定排序、offset 分页、组合索引与可验证执行计划；对未亲自完成优化如实界定职责。"
+    },
+    {
+      "id": "cache_consistency",
+      "dimensions": [
+        "architecture_judgment",
+        "project_ownership",
+        "engineering_practice"
+      ],
+      "requirement": "解释提交后失效的依据与失败/并发边界，给出符合约束的改善或验证思路，不承诺未经证明的强一致。"
+    },
+    {
+      "id": "reliable_api_diagnosis",
+      "dimensions": [
+        "technical_foundation",
+        "engineering_practice",
+        "troubleshooting"
+      ],
+      "requirement": "能解释 Python/FastAPI 请求依赖及错误处理，借助日志提出可验证的故障定位步骤，测试关键与异常路径，依赖故障保持失败语义。"
+    }
+  ],
+  "behavior_anchors": {
+    "technical_foundation": {
+      "basis": "JD Python/FastAPI、PostgreSQL、事务与查询 -> 2 年 -> 能独立解释常见后端机制并应用到负责接口 -> Q2/Q3/Q5",
+      "Strong": "能推导并发或异步机制在变化条件下的行为，说明边界并提出验证证据。",
+      "Meets": "能正确解释负责范围内 API、事务、版本更新与查询基础，并以具体实现或验证支持。",
+      "Below": "能描述部分实现，但关键原理、应用边界或验证存在明确缺口。",
+      "Weak": "有充分证据显示无法正确运用关键后端机制，导致数据或错误语义不正确。"
+    },
+    "project_ownership": {
+      "basis": "JD 解释负责功能依据；简历列表/状态/缓存 -> 2 年 -> 清楚说明个人实现及他人职责，细节一致 -> Q1/Q2/Q4",
+      "Strong": "清晰区分个人贡献，独立说明关键实现、取舍和验证，能处理变化条件且不虚构成果。",
+      "Meets": "清晰说明自己负责的接口实现与测试，明确团队边界，回答与提供事实一致。",
+      "Below": "有具体贡献证据，但自己负责模块的重要细节或实现依据解释不完整。",
+      "Weak": "经必要中性澄清仍不能解释声称负责的核心功能，且有充分内容证据。"
+    },
+    "architecture_judgment": {
+      "basis": "JD 索引分页缓存一致性 -> 2 年 -> 在负责模块内说明选择与限制，以验证支持改善 -> Q3/Q4",
+      "Strong": "能比较多种合理方案，随约束变化分析正确性、性能和复杂度并设计验证。",
+      "Meets": "能解释现有索引、分页、缓存选择的基本依据，识别实质风险并提出可验证的处理。",
+      "Below": "理解常用方案但对关键取舍或一致性/查询边界有明确缺口。",
+      "Weak": "充分证据显示核心方案判断不满足数据正确性或基本性能要求。"
+    },
+    "engineering_practice": {
+      "basis": "JD 校验、隔离、错误、pytest、评审测试 -> 2 年 -> 关键异常有正确语义及可执行测试思路 -> Q1/Q2/Q5/Q6",
+      "Strong": "能系统构建关键路径、异常及并发验证，分析测试局限与可观测性/安全风险。",
+      "Meets": "能说明输入校验、租户隔离、事务错误及 pytest 断言，保护日志信息并遵守评审测试流程。",
+      "Below": "具备若干实践，但关键异常、测试真实性或边界覆盖存在明确不足。",
+      "Weak": "充分证据显示关键可靠性或隔离实践不正确，且澄清后仍会掩盖失败或造成越权。"
+    },
+    "troubleshooting": {
+      "basis": "JD 结构化日志定位 API 故障 -> 2 年 -> 关联请求、缩小故障域并以证据验证假设 -> Q6",
+      "Strong": "能按证据排序假设，具体选择观测与对照，区分缓解、根因、回归验证并说明局限。",
+      "Meets": "能用请求编号、耗时与异常分层定位，提出验证动作并保持依赖错误的失败语义。",
+      "Below": "有初步排查思路，但验证动作笼统、缺少区分原因的证据或只停留猜测。",
+      "Weak": "多次澄清后仍无可用定位方法，或充分证据显示以错误成功语义掩盖故障。"
+    },
+    "technical_communication": {
+      "basis": "JD 需求澄清、解释实现、协作 -> 2 年 -> 结构清楚、可区分事实与假设并响应追问 -> 全组",
+      "Strong": "能在复杂约束下简洁组织推理，主动澄清歧义并明确证据限度。",
+      "Meets": "表达逻辑清晰，能回应具体追问并区分实际经历、假设和未知。",
+      "Below": "可传达主要内容，但关键逻辑或事实边界需反复澄清。",
+      "Weak": "充分证据显示难以传达完成岗位工作所必需的技术内容；不以紧张或措辞风格判定。"
+    }
+  },
+  "question_plan": [
+    {
+      "id": "Q1",
+      "category": "project",
+      "objective": "评估本人列表接口实现中的租户隔离与职责边界",
+      "dimensions": [
+        "project_ownership",
+        "engineering_practice",
+        "technical_communication"
+      ],
+      "direction": "从请求到查询执行的租户约束；必要时追问一次隔离测试或具体实现",
+      "needed": "可归属个人的实际实现细节与安全约束"
+    },
+    {
+      "id": "Q2",
+      "category": "project",
+      "objective": "评估状态更新并发正确性",
+      "dimensions": [
+        "technical_foundation",
+        "project_ownership",
+        "engineering_practice"
+      ],
+      "direction": "同一版本并发更新；必要时询问影响行数、事务和失败边界",
+      "needed": "原子性、版本冲突与隔离条件的独立解释"
+    },
+    {
+      "id": "Q3",
+      "category": "technical",
+      "objective": "评估索引、稳定排序与分页的查询判断",
+      "dimensions": [
+        "technical_foundation",
+        "architecture_judgment"
+      ],
+      "direction": "有/无状态筛选下组合索引；必要时追问验证方法或分页边界",
+      "needed": "基本原理、方案限制和可验证方法，允许如实说明未实际优化"
+    },
+    {
+      "id": "Q4",
+      "category": "project",
+      "objective": "评估缓存一致性与选择依据",
+      "dimensions": [
+        "architecture_judgment",
+        "project_ownership",
+        "engineering_practice"
+      ],
+      "direction": "提交后删除缓存的可见状态与并发边界；必要时追问可验证改善",
+      "needed": "真实实现、风险、取舍及合理边界"
+    },
+    {
+      "id": "Q5",
+      "category": "technical",
+      "objective": "评估 Python/FastAPI 请求执行与依赖错误处理",
+      "dimensions": [
+        "technical_foundation",
+        "engineering_practice"
+      ],
+      "direction": "异步端点使用阻塞数据库调用的行为；必要时追问请求依赖/错误语义",
+      "needed": "对执行机制、修正方案及边界的口头解释，不要求运行代码"
+    },
+    {
+      "id": "Q6",
+      "category": "scenario",
+      "objective": "评估 API 故障定位与验证",
+      "dimensions": [
+        "troubleshooting",
+        "engineering_practice",
+        "technical_communication"
+      ],
+      "direction": "列表接口间歇数据库超时；逐步追问一个判别证据或回归测试",
+      "needed": "假设与证据相连的排查步骤，可靠失败语义及测试"
+    },
+    {
+      "id": "reverse",
+      "objective": "回答候选人反向提问",
+      "direction": "仅依据已给材料；未知公司事项要求实际招聘方确认"
+    }
+  ],
+  "scoring_rules": "无固定分数封顶或录用阈值；N/A 不推断为弱；岗位关键子能力缺证据时保留判断；使用实际独立回答和隔离脚本。"
+}

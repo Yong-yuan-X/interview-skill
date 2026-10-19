@@ -1,0 +1,10 @@
+# Preserve original synthetic-interview evidence bytes and recorded hashes.
+# Review code and README/validation prose continue using normal Git settings.
+/examples/synthetic-interview/*/exchanges/** -text
+/examples/synthetic-interview/*/inputs/** -text
+/examples/synthetic-interview/*/evidence/** -text
+/examples/synthetic-interview/*/agent-metadata/** -text
+/examples/synthetic-interview/*/transcript.jsonl -text
+/examples/synthetic-interview/*/transcript.md -text
+/examples/synthetic-interview/*/final-report.md -text
+/examples/synthetic-interview/*/run-metadata.json -text
