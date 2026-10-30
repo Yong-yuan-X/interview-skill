@@ -1,12 +1,8 @@
 # interview-skill
 
-A practical AI interview skill for real-world job preparation, featuring JD- and resume-based mock interviews, targeted practice, and structured performance reviews.
+A practical AI interview skill for developers with 0–3 years of experience, offering JD- and resume-based technical, comprehensive, and HR interview practice with structured reviews.
 
 [简体中文](README.zh-CN.md)
-
-## Future updates
-
-This skill is still being designed and developed. Insights from personal conversations with HR professionals at Tencent, Google, OpenAI, and ByteDance help refine the interview flow and feedback to better reflect real-world job interviews. These suggestions do not represent their employers' official positions. Star this repository ⭐ to follow future updates!
 
 ## Install in Codex
 
@@ -19,7 +15,9 @@ The skill entry point is SKILL.md at the repository root. Use --repo Yong-yuan-X
 
 ## Usage
 
-After installation, invoke `$interview-skill` in your next message. For a first new interview, provide the target JD and your resume. You can also specify the mode, interview type, and target experience level; unspecified settings follow the skill's existing rules. Project links, code, and portfolios are optional. For example:
+After installation, invoke `$interview-skill` in your next message. For a new interview, provide the target JD and your resume; project links, code, and portfolios are optional.
+
+The default is a realistic technical interview. You can specify the mode, interview type, and target experience level. The target level follows your choice, then a clear JD requirement; otherwise, the skill asks you to clarify. For example:
 
 ```text
 $interview-skill Start an interview.
@@ -27,7 +25,12 @@ Mode: coaching; interview type: technical; target level: new graduate.
 I'll provide the JD and resume next.
 ```
 
-Supported workflows include realistic simulations, coaching, historical reviews, and weakness retests. Historical reviews only require existing interview records or reports.
+| Workflow | Purpose and feedback |
+| --- | --- |
+| Realistic simulation | Consolidated feedback at the end of the round |
+| Coaching | Feedback after each main question and its follow-ups |
+| Historical review | Analyze existing records or reports; no new JD or resume required |
+| Weakness retest | Test previously weak areas with new questions; feedback at the end by default |
 
 ### Python and scoring
 
@@ -36,3 +39,11 @@ The scoring script requires Python 3.10+ and uses only the standard library. If 
 ### If Codex does not recognize the skill
 
 If you cannot invoke the skill, restart Codex. If it is still missing, ask Codex to check the installation directory, skill name, and supporting files.
+
+## Examples and validation
+
+See the [Chinese and English AI synthetic interviews](examples/synthetic-interview/README.md) for original dialogues, scored reports, and validation records. Each run documents its verification scope and known issues.
+
+## Future updates
+
+This skill is still being designed and developed. Insights from personal conversations with HR professionals at Tencent, Google, OpenAI, and ByteDance help refine the interview flow and feedback to better reflect real-world job interviews. These suggestions do not represent their employers' official positions. Star this repository ⭐ to follow future updates!
